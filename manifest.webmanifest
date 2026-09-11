@@ -1,7 +1,7 @@
 {
   "name": "Work Command Notes",
   "short_name": "Notes",
-  "description": "Your notes, from anywhere. Your Brain stays in your own OneDrive.",
+  "description": "Your notes, from anywhere. Your Brain stays in your own cloud folder.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

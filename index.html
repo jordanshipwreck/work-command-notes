@@ -2,9 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <!--
+      The hosts this page is allowed to reach, enforced by the browser rather than promised in a
+      README (review LOW). It is the same list src/test/hosts.test.ts asserts over the source and
+      the shipped provider bundle — a script or a fetch to anywhere else is refused here even if
+      one ever got into the code. No `default-src`: this hardens the directives that carry the
+      risk (script, connect, frame) without breaking the fonts and images a static page may add.
+      `style-src` keeps 'unsafe-inline' because Vite inlines the app's styles; `script-src` does
+      NOT, so no inline script can run.
+    -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="script-src 'self' https://accounts.google.com; connect-src 'self' https://www.googleapis.com https://accounts.google.com https://graph.microsoft.com https://login.microsoftonline.com; frame-src https://accounts.google.com https://login.microsoftonline.com; img-src 'self' data:; style-src 'self' 'unsafe-inline'"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <title>Work Command Notes</title>
-    <meta name="description" content="Your notes, from anywhere. Your Brain lives in your own OneDrive — Work Command never sees it." />
+    <meta name="description" content="Your notes, from anywhere. Your Brain lives in your own cloud folder — Work Command never sees it." />
     <link rel="manifest" href="./manifest.webmanifest" />
     <meta name="theme-color" content="#1D1C1A" />
     <!-- PWA / Add to Home Screen (iOS Safari reads these, not the manifest, for its own chrome) -->
@@ -13,8 +26,8 @@
     <meta name="apple-mobile-web-app-title" content="Notes" />
     <link rel="apple-touch-icon" href="./icons/icon-192.png" />
     <link rel="icon" href="./icons/icon-192.png" />
-    <script type="module" crossorigin src="./assets/index-Dn0Naegr.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-BzzC4Ata.css">
+    <script type="module" crossorigin src="./assets/index-Y68uaaUp.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-BPciXi0B.css">
   </head>
   <body>
     <div id="root"></div>
