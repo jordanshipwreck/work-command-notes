@@ -10,10 +10,20 @@
       risk (script, connect, frame) without breaking the fonts and images a static page may add.
       `style-src` keeps 'unsafe-inline' because Vite inlines the app's styles; `script-src` does
       NOT, so no inline script can run.
+
+      Deliberately absent, and load-bearing (2026-09-11): there is NO `default-src`, no
+      `form-action` and no `navigate-to`. The phone's Google sign-in is a TOP-LEVEL NAVIGATION to
+      accounts.google.com (packages/brain-provider/src/google-redirect-auth.ts), and any of those
+      three directives would be able to block the tab from leaving — which would break sign-in on
+      the one device this app exists for. src/test/hosts.test.ts asserts they stay absent, and
+      apps/notes-web/scripts/verify-csp-navigation.mjs proves against the BUILT site in headless
+      Chromium that this policy lets the navigation happen (and that the app boots with no CSP
+      violation at all).
+      `connect-src` carries oauth2.googleapis.com for sign-out's revoke call.
     -->
     <meta
       http-equiv="Content-Security-Policy"
-      content="script-src 'self' https://accounts.google.com; connect-src 'self' https://www.googleapis.com https://accounts.google.com https://graph.microsoft.com https://login.microsoftonline.com; frame-src https://accounts.google.com https://login.microsoftonline.com; img-src 'self' data:; style-src 'self' 'unsafe-inline'"
+      content="script-src 'self' https://accounts.google.com; connect-src 'self' https://www.googleapis.com https://oauth2.googleapis.com https://accounts.google.com https://graph.microsoft.com https://login.microsoftonline.com; frame-src https://accounts.google.com https://login.microsoftonline.com; img-src 'self' data:; style-src 'self' 'unsafe-inline'"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <title>Work Command Notes</title>
@@ -26,8 +36,8 @@
     <meta name="apple-mobile-web-app-title" content="Notes" />
     <link rel="apple-touch-icon" href="./icons/icon-192.png" />
     <link rel="icon" href="./icons/icon-192.png" />
-    <script type="module" crossorigin src="./assets/index-BPDgqcJq.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-BPciXi0B.css">
+    <script type="module" crossorigin src="./assets/index-BZl58uVB.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-1LusIWkr.css">
   </head>
   <body>
     <div id="root"></div>

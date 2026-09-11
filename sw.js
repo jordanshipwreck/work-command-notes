@@ -7,6 +7,14 @@
 //      SEES one, let alone caches it. This is the real guarantee.
 //   2. A write (any non-GET request) is never intercepted either, so even a same-origin write
 //      path could not be cached by accident.
+//   3. Since 2026-09-11 the phone's Google sign-in comes back to THIS page with an access token in
+//      the URL **fragment**. A fragment is not part of a request — browsers never send one to a
+//      server, and it is stripped from `request.url` before a service worker ever sees it — so by
+//      the spec there is nothing here to cache. The check below is belt-and-braces anyway: any
+//      request whose URL mentions `access_token` bypasses this worker entirely, and a navigation's
+//      response is never written to the cache at runtime (the shell is precached at install from
+//      token-free URLs). A cached document carrying somebody's live token is the one thing a
+//      shell cache must never contain.
 const CACHE_VERSION = 'wc-notes-shell-v1';
 const SHELL_ASSETS = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png'];
 
@@ -33,14 +41,18 @@ self.addEventListener('fetch', (event) => {
   if (req.method !== 'GET') return; // never cache a write
   const url = new URL(req.url);
   if (url.origin !== self.location.origin) return; // never cache anything not served by this page
+  if (req.url.includes('access_token')) return; // a sign-in's answer: straight to the network, never cached
 
   event.respondWith(
     caches.match(req).then((cached) => {
       if (cached) return cached;
       return fetch(req).then((res) => {
         // /config.json changes when Jordan pastes a client id WITHOUT a rebuild — never cache it,
-        // so a stale cache can't hide a real registration.
-        if (!url.pathname.endsWith('/config.json') && res.ok) {
+        // so a stale cache can't hide a real registration. A navigation's response is never
+        // written either: the shell is precached at install, and the page a sign-in returns to is
+        // a navigation.
+        const cacheable = res.ok && req.mode !== 'navigate' && !url.pathname.endsWith('/config.json');
+        if (cacheable) {
           const copy = res.clone();
           caches.open(CACHE_VERSION).then((cache) => cache.put(req, copy));
         }
