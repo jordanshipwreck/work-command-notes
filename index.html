@@ -20,10 +20,17 @@
       Chromium that this policy lets the navigation happen (and that the app boots with no CSP
       violation at all).
       `connect-src` carries oauth2.googleapis.com for sign-out's revoke call.
+
+      Added 2026-09-13 (P28-T06), and nothing else: the Google Picker. A `drive.file` deployment
+      has no other way to be handed a folder at all, so the chooser is not optional decoration.
+      It needs `apis.google.com` (Google's `api.js` loader — the second and last third-party
+      script, plus the `gapi` RPC iframe and the calls it makes), and its dialog renders in an
+      iframe served from `docs.google.com` / `drive.google.com`. Three hosts, all Google's, all
+      only reachable because the user just tapped "Choose folder".
     -->
     <meta
       http-equiv="Content-Security-Policy"
-      content="script-src 'self' https://accounts.google.com; connect-src 'self' https://www.googleapis.com https://oauth2.googleapis.com https://accounts.google.com https://graph.microsoft.com https://login.microsoftonline.com; frame-src https://accounts.google.com https://login.microsoftonline.com; img-src 'self' data:; style-src 'self' 'unsafe-inline'"
+      content="script-src 'self' https://accounts.google.com https://apis.google.com; connect-src 'self' https://www.googleapis.com https://oauth2.googleapis.com https://accounts.google.com https://apis.google.com https://graph.microsoft.com https://login.microsoftonline.com; frame-src https://accounts.google.com https://apis.google.com https://docs.google.com https://drive.google.com https://login.microsoftonline.com; img-src 'self' data:; style-src 'self' 'unsafe-inline'"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <title>Work Command Notes</title>
@@ -36,8 +43,8 @@
     <meta name="apple-mobile-web-app-title" content="Notes" />
     <link rel="apple-touch-icon" href="./icons/icon-192.png" />
     <link rel="icon" href="./icons/icon-192.png" />
-    <script type="module" crossorigin src="./assets/index-BOLo_yqx.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-C_HZRHOD.css">
+    <script type="module" crossorigin src="./assets/index-mJH08pw5.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-Brdiay3s.css">
   </head>
   <body>
     <div id="root"></div>
