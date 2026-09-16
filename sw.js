@@ -15,14 +15,19 @@
 //      response is never written to the cache at runtime (the shell is precached at install from
 //      token-free URLs). A cached document carrying somebody's live token is the one thing a
 //      shell cache must never contain.
-const CACHE_VERSION = 'wc-notes-shell-v1';
+// `scripts/deploy-notes-site.sh` rewrites this exact string to 'wc-notes-shell-<build hash>' on every
+// deploy (its "sw.js cache stamp" region), so an installed site drops the old shell. Keep it as is.
+const CACHE_VERSION = 'wc-notes-shell-1937f25f91c4';
 const SHELL_ASSETS = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches
       .open(CACHE_VERSION)
-      .then((cache) => cache.addAll(SHELL_ASSETS))
+      // `cache: 'reload'` — past the browser's HTTP cache. A new worker installs right after a deploy,
+      // and GitHub Pages lets a page sit in the HTTP cache for minutes: precaching THAT would store the
+      // previous index.html, whose hashed JS the deploy has already deleted, and break the site.
+      .then((cache) => cache.addAll(SHELL_ASSETS.map((url) => new Request(url, { cache: 'reload' }))))
       .then(() => self.skipWaiting()),
   );
 });
