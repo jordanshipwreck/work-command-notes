@@ -17,8 +17,8 @@
 //      shell cache must never contain.
 // `scripts/deploy-notes-site.sh` rewrites this exact string to 'wc-notes-shell-<build hash>' on every
 // deploy (its "sw.js cache stamp" region), so an installed site drops the old shell. Keep it as is.
-const CACHE_VERSION = 'wc-notes-shell-dfce67350d86';
-const SHELL_ASSETS = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png'];
+const CACHE_VERSION = 'wc-notes-shell-b8ba4b34e3a3';
+const SHELL_ASSETS = ['./', './index.html', './manifest.webmanifest', './icons/workcommand-dark-192.png', './icons/workcommand-dark-512.png', './icons/workcommand-maskable-512.png', './icons/workcommand-dark-180.png', './icons/workcommand-light-180.png', './icons/workcommand-dark-32.png', './icons/workcommand-light-32.png'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(

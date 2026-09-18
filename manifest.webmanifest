@@ -5,11 +5,26 @@
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#1D1C1A",
-  "theme_color": "#1D1C1A",
+  "background_color": "#171717",
+  "theme_color": "#171717",
   "icons": [
-    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
-    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    {
+      "src": "./icons/workcommand-dark-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/workcommand-dark-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/workcommand-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
   ]
 }

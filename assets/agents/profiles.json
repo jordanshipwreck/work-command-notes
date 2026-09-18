@@ -1,0 +1,1299 @@
+{
+  "version": "3.0",
+  "source_archive": "workcommand-profile-pictures-v3.zip",
+  "source_sha256": "68514ce271a425783851f5af9fdd67b6ae682d6987f580d6f39cf0bab52190e2",
+  "dimensions": [
+    320,
+    320
+  ],
+  "characters": [
+    {
+      "id": "crew-0",
+      "label": "Character 01",
+      "image": "portraits-v3/agent-01.png",
+      "sha256": "1be2fcd75bc6677d8fad13d6c10249b99217e46ed2fcba149eb8e432ae8fccb6"
+    },
+    {
+      "id": "crew-1",
+      "label": "Character 02",
+      "image": "portraits-v3/agent-02.png",
+      "sha256": "012391d9bd028af6975995ef927f31ccae22db92e884932e945d4b518b78bd3e"
+    },
+    {
+      "id": "crew-2",
+      "label": "Character 03",
+      "image": "portraits-v3/agent-03.png",
+      "sha256": "aa1015d3e46e543d338a7368c0f86fbc7d5003f8762510bc64403f0b8251446c"
+    },
+    {
+      "id": "crew-3",
+      "label": "Character 04",
+      "image": "portraits-v3/agent-04.png",
+      "sha256": "b54e3362679824e64882840f6efe95317120a854b9e3fa0f7fc08219127622de"
+    },
+    {
+      "id": "crew-4",
+      "label": "Character 05",
+      "image": "portraits-v3/agent-05.png",
+      "sha256": "58f127cb0835e081c58fa89e7f3ab8775311ec68e59d9f88870d3ff45409eadb"
+    },
+    {
+      "id": "crew-5",
+      "label": "Character 06",
+      "image": "portraits-v3/agent-06.png",
+      "sha256": "9b2ad6b622a6c6f221583896aaae763b3c829f3a0b0b1effd50b0ada15c9b0ea"
+    },
+    {
+      "id": "crew-6",
+      "label": "Character 07",
+      "image": "portraits-v3/agent-07.png",
+      "sha256": "0ba02f50d6d3b22e47014dd8b493b7f7bef3d9eeef2ac6d08f27b3c076b33361"
+    },
+    {
+      "id": "crew-7",
+      "label": "Character 08",
+      "image": "portraits-v3/agent-08.png",
+      "sha256": "13a09cfbd281632c5dff56f6d5cf93f22723b04e1478e2233b30d6d6dc97f1ae"
+    },
+    {
+      "id": "crew-8",
+      "label": "Character 09",
+      "image": "portraits-v3/agent-09.png",
+      "sha256": "1c615546f8214dbe45afe94a512d4626a0d3e62c0333b8c0c0752f01f7f5fc29"
+    },
+    {
+      "id": "crew-9",
+      "label": "Character 10",
+      "image": "portraits-v3/agent-10.png",
+      "sha256": "66777cb418075fe1389f3e031028e30205e70eb9f2265f06b26c940a777674f6"
+    },
+    {
+      "id": "crew-10",
+      "label": "Character 11",
+      "image": "portraits-v3/agent-11.png",
+      "sha256": "c448c431e062c06363ca4d5c42afca249245053ebbb506305f015f5f1606f814"
+    },
+    {
+      "id": "crew-11",
+      "label": "Character 12",
+      "image": "portraits-v3/agent-12.png",
+      "sha256": "35792c65205974698813c03290fa91b64f070b2adbf559f276c563e7ec8c0ac7"
+    },
+    {
+      "id": "crew-12",
+      "label": "Character 13",
+      "image": "portraits-v3/agent-13.png",
+      "sha256": "feb1742a42c11312e1e3be90a5f0e3b552a72e9cb7ceabab2405fd808aee6e63"
+    },
+    {
+      "id": "crew-13",
+      "label": "Character 14",
+      "image": "portraits-v3/agent-14.png",
+      "sha256": "f58cf88773e5b0c5f41065767cc2ff415f048870c7dfece8445524260ab98ffc"
+    },
+    {
+      "id": "crew-14",
+      "label": "Character 15",
+      "image": "portraits-v3/agent-15.png",
+      "sha256": "9492ca8fd2cd4fd77e647fd945dd3780310f1a8032ded62ee07baaf8828a0519"
+    },
+    {
+      "id": "crew-15",
+      "label": "Character 16",
+      "image": "portraits-v3/agent-16.png",
+      "sha256": "e104bfaf89d626581d7cb0fe8064e5af71f466e2e9394b20839c862204b17b2b"
+    },
+    {
+      "id": "crew-16",
+      "label": "Character 17",
+      "image": "portraits-v3/agent-17.png",
+      "sha256": "c4eacbcaf9b639d83ce324c2f7d3ac3db7b0be65f0b16effb484530fcf2ef1d6"
+    },
+    {
+      "id": "crew-17",
+      "label": "Character 18",
+      "image": "portraits-v3/agent-18.png",
+      "sha256": "c9f5763d5fadb41f16e3c353d7ef0befc8d0d57b6c914a2f1bd431e63692a8f8"
+    },
+    {
+      "id": "crew-18",
+      "label": "Character 19",
+      "image": "portraits-v3/agent-19.png",
+      "sha256": "353caf52e7f58a546f1e6a6dc90bbf6a4dcf979ce50383a99f989c42a0750bec"
+    },
+    {
+      "id": "crew-19",
+      "label": "Character 20",
+      "image": "portraits-v3/agent-20.png",
+      "sha256": "cd907c0595c9f6aeafa53a8b46b6f5da32be14200dd906a57eb6d51250a7790e"
+    },
+    {
+      "id": "crew-20",
+      "label": "Character 21",
+      "image": "portraits-v3/agent-21.png",
+      "sha256": "e2b1411bf882c30127239f6a096efdd71e31c1f321af9dde2c438c467099e75e"
+    },
+    {
+      "id": "crew-21",
+      "label": "Character 22",
+      "image": "portraits-v3/agent-22.png",
+      "sha256": "5c619b8d2c19707cfab81bd3e954b5442c1b8ce60dd915691e4064097c12592f"
+    },
+    {
+      "id": "crew-22",
+      "label": "Character 23",
+      "image": "portraits-v3/agent-23.png",
+      "sha256": "326fd675b15e648f43a55e54d943c3cb2176ae8b0ccce4208411523bf1947cf2"
+    },
+    {
+      "id": "crew-23",
+      "label": "Character 24",
+      "image": "portraits-v3/agent-24.png",
+      "sha256": "d2f97534522be94f12fd0addd17cf0dab445d13c4ca0e4f2d7bd216cf01a45b4"
+    },
+    {
+      "id": "crew-24",
+      "label": "Character 25",
+      "image": "portraits-v3/agent-25.png",
+      "sha256": "37104c4246411f6bf48e76bbc2e4a7fd0e3eb1a7e6ae0d9a733b299c22b26dd4",
+      "optional_nickname": "Relay"
+    },
+    {
+      "id": "crew-25",
+      "label": "Character 26",
+      "image": "portraits-v3/agent-26.png",
+      "sha256": "f23b8f77e44410a28dae1a4729df8c9fcb73cf8d5f4a40cdd1817933306c44e4",
+      "optional_nickname": "Prism"
+    },
+    {
+      "id": "crew-26",
+      "label": "Character 27",
+      "image": "portraits-v3/agent-27.png",
+      "sha256": "54cc0793e1a78f2963bca2272131c4756446a1d0213ff0fd8b7e70bc5d85e1ba",
+      "optional_nickname": "Cairn"
+    },
+    {
+      "id": "crew-27",
+      "label": "Character 28",
+      "image": "portraits-v3/agent-28.png",
+      "sha256": "63442d1c51a3401a8862d8c1e2f8c57b604651d13a3faf18c6dd92623931fa30",
+      "optional_nickname": "Orbit"
+    },
+    {
+      "id": "crew-28",
+      "label": "Character 29",
+      "image": "portraits-v3/agent-29.png",
+      "sha256": "81ef6025ab5e4796b9025ef75c3f35c808eab987dcf1add2d566c522b6320e53",
+      "optional_nickname": "Quill"
+    },
+    {
+      "id": "crew-29",
+      "label": "Character 30",
+      "image": "portraits-v3/agent-30.png",
+      "sha256": "15c8cde215dcfd445e75abba67c0c3d7ac138269a2098275b20dd6769f608dde",
+      "optional_nickname": "Patch"
+    },
+    {
+      "id": "crew-30",
+      "label": "Character 31",
+      "image": "portraits-v3/agent-31.png",
+      "sha256": "460ea1f5f05cb40ce4ebcfb8ea02780feaab14c5daf0f00d1ba2005471d5d55e",
+      "optional_nickname": "Compass"
+    },
+    {
+      "id": "crew-31",
+      "label": "Character 32",
+      "image": "portraits-v3/agent-32.png",
+      "sha256": "89397ccd3a5bfdc26bcd2c6a63f606258c8de787a899bd9dcc081f282fdcf635",
+      "optional_nickname": "Loom"
+    },
+    {
+      "id": "crew-32",
+      "label": "Character 33",
+      "image": "portraits-v3/agent-33.png",
+      "sha256": "4c16cce68278d9856d6caef54b539054132c133115e5738ff6954c3d11e9db32",
+      "optional_nickname": "Echo"
+    },
+    {
+      "id": "crew-33",
+      "label": "Character 34",
+      "image": "portraits-v3/agent-34.png",
+      "sha256": "4b5b36a4d7cd32df54b9025990f929def1ffc54116399294da33415a18bb708e",
+      "optional_nickname": "Flint"
+    },
+    {
+      "id": "crew-34",
+      "label": "Character 35",
+      "image": "portraits-v3/agent-35.png",
+      "sha256": "e4dbadafccb6dc02b82e4df9337a14e5c06a71ba008f2db48c2a8b57863cb7fc",
+      "optional_nickname": "Keystone"
+    },
+    {
+      "id": "crew-35",
+      "label": "Character 36",
+      "image": "portraits-v3/agent-36.png",
+      "sha256": "c07b289d7bf38912e02cececab4c89d6419beae61cf6034a1578b2940e873161",
+      "optional_nickname": "Mosaic"
+    },
+    {
+      "id": "crew-36",
+      "label": "Character 37",
+      "image": "portraits-v3/agent-37.png",
+      "sha256": "29f041dc99be1ea12e7ea25923f4ed58225cc4d33159aed1859afbfdff3d0de5",
+      "optional_nickname": "Scout"
+    },
+    {
+      "id": "crew-37",
+      "label": "Character 38",
+      "image": "portraits-v3/agent-38.png",
+      "sha256": "6f59f75f3bfb9ceec2fef817bddb94192e3e8d78773726721dc74593b2cf6b99",
+      "optional_nickname": "Folio"
+    },
+    {
+      "id": "crew-38",
+      "label": "Character 39",
+      "image": "portraits-v3/agent-39.png",
+      "sha256": "d25bd8668ab24b8a80a5429beaec60a3b84c303d24cc444edbf807c2c0f7aa4c",
+      "optional_nickname": "Rivet"
+    },
+    {
+      "id": "crew-39",
+      "label": "Character 40",
+      "image": "portraits-v3/agent-40.png",
+      "sha256": "f91b0cfabbaf40df5de5779b71298d2ec4e6507f5dfb6421b86accf060ebd077",
+      "optional_nickname": "Tangent"
+    },
+    {
+      "id": "crew-40",
+      "label": "Character 41",
+      "image": "portraits-v3/agent-41.png",
+      "sha256": "23b545bf5d00f1674019b5961fbfda734f1cfce0df9bbbfd7ed2e653f13eb555",
+      "optional_nickname": "Beacon"
+    },
+    {
+      "id": "crew-41",
+      "label": "Character 42",
+      "image": "portraits-v3/agent-42.png",
+      "sha256": "0a9054ef4d90b9e23d13dd96a6a72299fc5789b7b74bbe0846f8e1269b16fc64",
+      "optional_nickname": "Kite"
+    },
+    {
+      "id": "crew-42",
+      "label": "Character 43",
+      "image": "portraits-v3/agent-43.png",
+      "sha256": "a28212c3fe98ecc7fb70a2daf9d8c78952d5ae2a87c51dd5235e48b42b1566ec",
+      "optional_nickname": "Glyph"
+    },
+    {
+      "id": "crew-43",
+      "label": "Character 44",
+      "image": "portraits-v3/agent-44.png",
+      "sha256": "e9c0d6248cb2cc1eca4dc1abe2389fcb0b0fe0f9f826898f3d2b154454de7fd7",
+      "optional_nickname": "Harbor"
+    },
+    {
+      "id": "crew-44",
+      "label": "Character 45",
+      "image": "portraits-v3/agent-45.png",
+      "sha256": "aa14705ed27c5e1747fee9521a4a125fbf13925928067659c18222978683d5b3",
+      "optional_nickname": "Switch"
+    },
+    {
+      "id": "crew-45",
+      "label": "Character 46",
+      "image": "portraits-v3/agent-46.png",
+      "sha256": "d925ce4dfee992428da4af09e5d40d0742a805e593bb8a2d248f01dac26b9c94",
+      "optional_nickname": "Arc"
+    },
+    {
+      "id": "crew-46",
+      "label": "Character 47",
+      "image": "portraits-v3/agent-47.png",
+      "sha256": "764901aac3de93d1ef8395b2ca8145fd58a0ed09d28b3251fcad194d69d42f75",
+      "optional_nickname": "Tinker"
+    },
+    {
+      "id": "crew-47",
+      "label": "Character 48",
+      "image": "portraits-v3/agent-48.png",
+      "sha256": "d4c3554a965663e0fbcf98bd332c61a7da937d29d434620484dc0eb7ecb6c8fa",
+      "optional_nickname": "Bastion"
+    },
+    {
+      "id": "crew-48",
+      "label": "Character 49",
+      "image": "portraits-v3/agent-49.png",
+      "sha256": "20219876e00af83077fb271d48d7871a9c1e651793f93797b9230f0cad109093",
+      "optional_nickname": "Scribe"
+    },
+    {
+      "id": "crew-49",
+      "label": "Character 50",
+      "image": "portraits-v3/agent-50.png",
+      "sha256": "231178e723d0e79f64ab601b68765b0584c3e5701d7cc54e5f3a3ef8200e1cc5",
+      "optional_nickname": "Tempo"
+    }
+  ],
+  "suggested_roles": [
+    {
+      "id": "second-in-command",
+      "suggested_name": "Second in Command",
+      "category": "command",
+      "character_id": "crew-0",
+      "image": "portraits-v3/agent-01.png",
+      "alt_text": "Second in Command agent profile"
+    },
+    {
+      "id": "daily-planner",
+      "suggested_name": "Daily Planner",
+      "category": "command",
+      "character_id": "crew-8",
+      "image": "portraits-v3/agent-09.png",
+      "alt_text": "Daily Planner agent profile"
+    },
+    {
+      "id": "weekly-reviewer",
+      "suggested_name": "Weekly Reviewer",
+      "category": "command",
+      "character_id": "crew-9",
+      "image": "portraits-v3/agent-10.png",
+      "alt_text": "Weekly Reviewer agent profile"
+    },
+    {
+      "id": "priority-analyst",
+      "suggested_name": "Priority Analyst",
+      "category": "command",
+      "character_id": "crew-10",
+      "image": "portraits-v3/agent-11.png",
+      "alt_text": "Priority Analyst agent profile"
+    },
+    {
+      "id": "project-coordinator",
+      "suggested_name": "Project Coordinator",
+      "category": "command",
+      "character_id": "crew-11",
+      "image": "portraits-v3/agent-12.png",
+      "alt_text": "Project Coordinator agent profile"
+    },
+    {
+      "id": "delegation-coordinator",
+      "suggested_name": "Delegation Coordinator",
+      "category": "command",
+      "character_id": "crew-12",
+      "image": "portraits-v3/agent-13.png",
+      "alt_text": "Delegation Coordinator agent profile"
+    },
+    {
+      "id": "follow-up-coordinator",
+      "suggested_name": "Follow-up Coordinator",
+      "category": "command",
+      "character_id": "crew-13",
+      "image": "portraits-v3/agent-14.png",
+      "alt_text": "Follow-up Coordinator agent profile"
+    },
+    {
+      "id": "decision-archivist",
+      "suggested_name": "Decision Archivist",
+      "category": "command",
+      "character_id": "crew-14",
+      "image": "portraits-v3/agent-15.png",
+      "alt_text": "Decision Archivist agent profile"
+    },
+    {
+      "id": "inbox-triage-specialist",
+      "suggested_name": "Inbox Triage Specialist",
+      "category": "email",
+      "character_id": "crew-5",
+      "image": "portraits-v3/agent-06.png",
+      "alt_text": "Inbox Triage Specialist agent profile"
+    },
+    {
+      "id": "reply-drafter",
+      "suggested_name": "Reply Drafter",
+      "category": "email",
+      "character_id": "crew-15",
+      "image": "portraits-v3/agent-16.png",
+      "alt_text": "Reply Drafter agent profile"
+    },
+    {
+      "id": "correspondence-researcher",
+      "suggested_name": "Correspondence Researcher",
+      "category": "email",
+      "character_id": "crew-16",
+      "image": "portraits-v3/agent-17.png",
+      "alt_text": "Correspondence Researcher agent profile"
+    },
+    {
+      "id": "newsletter-curator",
+      "suggested_name": "Newsletter Curator",
+      "category": "email",
+      "character_id": "crew-17",
+      "image": "portraits-v3/agent-18.png",
+      "alt_text": "Newsletter Curator agent profile"
+    },
+    {
+      "id": "follow-up-tracker",
+      "suggested_name": "Follow-up Tracker",
+      "category": "email",
+      "character_id": "crew-18",
+      "image": "portraits-v3/agent-19.png",
+      "alt_text": "Follow-up Tracker agent profile"
+    },
+    {
+      "id": "attachment-organizer",
+      "suggested_name": "Attachment Organizer",
+      "category": "email",
+      "character_id": "crew-19",
+      "image": "portraits-v3/agent-20.png",
+      "alt_text": "Attachment Organizer agent profile"
+    },
+    {
+      "id": "message-summarizer",
+      "suggested_name": "Message Summarizer",
+      "category": "email",
+      "character_id": "crew-20",
+      "image": "portraits-v3/agent-21.png",
+      "alt_text": "Message Summarizer agent profile"
+    },
+    {
+      "id": "contact-context-keeper",
+      "suggested_name": "Contact Context Keeper",
+      "category": "email",
+      "character_id": "crew-21",
+      "image": "portraits-v3/agent-22.png",
+      "alt_text": "Contact Context Keeper agent profile"
+    },
+    {
+      "id": "scheduling-coordinator",
+      "suggested_name": "Scheduling Coordinator",
+      "category": "calendar",
+      "character_id": "crew-4",
+      "image": "portraits-v3/agent-05.png",
+      "alt_text": "Scheduling Coordinator agent profile"
+    },
+    {
+      "id": "meeting-preparer",
+      "suggested_name": "Meeting Preparer",
+      "category": "calendar",
+      "character_id": "crew-3",
+      "image": "portraits-v3/agent-04.png",
+      "alt_text": "Meeting Preparer agent profile"
+    },
+    {
+      "id": "meeting-scribe",
+      "suggested_name": "Meeting Scribe",
+      "category": "calendar",
+      "character_id": "crew-22",
+      "image": "portraits-v3/agent-23.png",
+      "alt_text": "Meeting Scribe agent profile"
+    },
+    {
+      "id": "agenda-builder",
+      "suggested_name": "Agenda Builder",
+      "category": "calendar",
+      "character_id": "crew-23",
+      "image": "portraits-v3/agent-24.png",
+      "alt_text": "Agenda Builder agent profile"
+    },
+    {
+      "id": "time-block-planner",
+      "suggested_name": "Time-block Planner",
+      "category": "calendar",
+      "character_id": "crew-11",
+      "image": "portraits-v3/agent-12.png",
+      "alt_text": "Time-block Planner agent profile"
+    },
+    {
+      "id": "availability-analyst",
+      "suggested_name": "Availability Analyst",
+      "category": "calendar",
+      "character_id": "crew-12",
+      "image": "portraits-v3/agent-13.png",
+      "alt_text": "Availability Analyst agent profile"
+    },
+    {
+      "id": "recurring-meeting-reviewer",
+      "suggested_name": "Recurring Meeting Reviewer",
+      "category": "calendar",
+      "character_id": "crew-13",
+      "image": "portraits-v3/agent-14.png",
+      "alt_text": "Recurring Meeting Reviewer agent profile"
+    },
+    {
+      "id": "action-item-extractor",
+      "suggested_name": "Action-item Extractor",
+      "category": "calendar",
+      "character_id": "crew-14",
+      "image": "portraits-v3/agent-15.png",
+      "alt_text": "Action-item Extractor agent profile"
+    },
+    {
+      "id": "writing-partner",
+      "suggested_name": "Writing Partner",
+      "category": "writing",
+      "character_id": "crew-2",
+      "image": "portraits-v3/agent-03.png",
+      "alt_text": "Writing Partner agent profile"
+    },
+    {
+      "id": "editor",
+      "suggested_name": "Editor",
+      "category": "writing",
+      "character_id": "crew-16",
+      "image": "portraits-v3/agent-17.png",
+      "alt_text": "Editor agent profile"
+    },
+    {
+      "id": "proofreader",
+      "suggested_name": "Proofreader",
+      "category": "writing",
+      "character_id": "crew-17",
+      "image": "portraits-v3/agent-18.png",
+      "alt_text": "Proofreader agent profile"
+    },
+    {
+      "id": "content-strategist",
+      "suggested_name": "Content Strategist",
+      "category": "writing",
+      "character_id": "crew-18",
+      "image": "portraits-v3/agent-19.png",
+      "alt_text": "Content Strategist agent profile"
+    },
+    {
+      "id": "copywriter",
+      "suggested_name": "Copywriter",
+      "category": "writing",
+      "character_id": "crew-19",
+      "image": "portraits-v3/agent-20.png",
+      "alt_text": "Copywriter agent profile"
+    },
+    {
+      "id": "technical-writer",
+      "suggested_name": "Technical Writer",
+      "category": "writing",
+      "character_id": "crew-20",
+      "image": "portraits-v3/agent-21.png",
+      "alt_text": "Technical Writer agent profile"
+    },
+    {
+      "id": "presentation-writer",
+      "suggested_name": "Presentation Writer",
+      "category": "writing",
+      "character_id": "crew-21",
+      "image": "portraits-v3/agent-22.png",
+      "alt_text": "Presentation Writer agent profile"
+    },
+    {
+      "id": "translation-partner",
+      "suggested_name": "Translation Partner",
+      "category": "writing",
+      "character_id": "crew-22",
+      "image": "portraits-v3/agent-23.png",
+      "alt_text": "Translation Partner agent profile"
+    },
+    {
+      "id": "research-partner",
+      "suggested_name": "Research Partner",
+      "category": "research",
+      "character_id": "crew-1",
+      "image": "portraits-v3/agent-02.png",
+      "alt_text": "Research Partner agent profile"
+    },
+    {
+      "id": "source-verifier",
+      "suggested_name": "Source Verifier",
+      "category": "research",
+      "character_id": "crew-23",
+      "image": "portraits-v3/agent-24.png",
+      "alt_text": "Source Verifier agent profile"
+    },
+    {
+      "id": "literature-reviewer",
+      "suggested_name": "Literature Reviewer",
+      "category": "research",
+      "character_id": "crew-8",
+      "image": "portraits-v3/agent-09.png",
+      "alt_text": "Literature Reviewer agent profile"
+    },
+    {
+      "id": "market-researcher",
+      "suggested_name": "Market Researcher",
+      "category": "research",
+      "character_id": "crew-9",
+      "image": "portraits-v3/agent-10.png",
+      "alt_text": "Market Researcher agent profile"
+    },
+    {
+      "id": "competitor-analyst",
+      "suggested_name": "Competitor Analyst",
+      "category": "research",
+      "character_id": "crew-10",
+      "image": "portraits-v3/agent-11.png",
+      "alt_text": "Competitor Analyst agent profile"
+    },
+    {
+      "id": "knowledge-librarian",
+      "suggested_name": "Knowledge Librarian",
+      "category": "research",
+      "character_id": "crew-15",
+      "image": "portraits-v3/agent-16.png",
+      "alt_text": "Knowledge Librarian agent profile"
+    },
+    {
+      "id": "interview-synthesizer",
+      "suggested_name": "Interview Synthesizer",
+      "category": "research",
+      "character_id": "crew-21",
+      "image": "portraits-v3/agent-22.png",
+      "alt_text": "Interview Synthesizer agent profile"
+    },
+    {
+      "id": "learning-curator",
+      "suggested_name": "Learning Curator",
+      "category": "research",
+      "character_id": "crew-22",
+      "image": "portraits-v3/agent-23.png",
+      "alt_text": "Learning Curator agent profile"
+    },
+    {
+      "id": "project-planner",
+      "suggested_name": "Project Planner",
+      "category": "projects",
+      "character_id": "crew-8",
+      "image": "portraits-v3/agent-09.png",
+      "alt_text": "Project Planner agent profile"
+    },
+    {
+      "id": "milestone-tracker",
+      "suggested_name": "Milestone Tracker",
+      "category": "projects",
+      "character_id": "crew-9",
+      "image": "portraits-v3/agent-10.png",
+      "alt_text": "Milestone Tracker agent profile"
+    },
+    {
+      "id": "risk-analyst",
+      "suggested_name": "Risk Analyst",
+      "category": "projects",
+      "character_id": "crew-10",
+      "image": "portraits-v3/agent-11.png",
+      "alt_text": "Risk Analyst agent profile"
+    },
+    {
+      "id": "process-designer",
+      "suggested_name": "Process Designer",
+      "category": "projects",
+      "character_id": "crew-11",
+      "image": "portraits-v3/agent-12.png",
+      "alt_text": "Process Designer agent profile"
+    },
+    {
+      "id": "operations-analyst",
+      "suggested_name": "Operations Analyst",
+      "category": "projects",
+      "character_id": "crew-12",
+      "image": "portraits-v3/agent-13.png",
+      "alt_text": "Operations Analyst agent profile"
+    },
+    {
+      "id": "resource-coordinator",
+      "suggested_name": "Resource Coordinator",
+      "category": "projects",
+      "character_id": "crew-13",
+      "image": "portraits-v3/agent-14.png",
+      "alt_text": "Resource Coordinator agent profile"
+    },
+    {
+      "id": "retrospective-facilitator",
+      "suggested_name": "Retrospective Facilitator",
+      "category": "projects",
+      "character_id": "crew-14",
+      "image": "portraits-v3/agent-15.png",
+      "alt_text": "Retrospective Facilitator agent profile"
+    },
+    {
+      "id": "quality-reviewer",
+      "suggested_name": "Quality Reviewer",
+      "category": "projects",
+      "character_id": "crew-15",
+      "image": "portraits-v3/agent-16.png",
+      "alt_text": "Quality Reviewer agent profile"
+    },
+    {
+      "id": "code-reviewer",
+      "suggested_name": "Code Reviewer",
+      "category": "engineering",
+      "character_id": "crew-16",
+      "image": "portraits-v3/agent-17.png",
+      "alt_text": "Code Reviewer agent profile"
+    },
+    {
+      "id": "bug-investigator",
+      "suggested_name": "Bug Investigator",
+      "category": "engineering",
+      "character_id": "crew-17",
+      "image": "portraits-v3/agent-18.png",
+      "alt_text": "Bug Investigator agent profile"
+    },
+    {
+      "id": "test-planner",
+      "suggested_name": "Test Planner",
+      "category": "engineering",
+      "character_id": "crew-18",
+      "image": "portraits-v3/agent-19.png",
+      "alt_text": "Test Planner agent profile"
+    },
+    {
+      "id": "documentation-engineer",
+      "suggested_name": "Documentation Engineer",
+      "category": "engineering",
+      "character_id": "crew-19",
+      "image": "portraits-v3/agent-20.png",
+      "alt_text": "Documentation Engineer agent profile"
+    },
+    {
+      "id": "release-coordinator",
+      "suggested_name": "Release Coordinator",
+      "category": "engineering",
+      "character_id": "crew-20",
+      "image": "portraits-v3/agent-21.png",
+      "alt_text": "Release Coordinator agent profile"
+    },
+    {
+      "id": "dependency-analyst",
+      "suggested_name": "Dependency Analyst",
+      "category": "engineering",
+      "character_id": "crew-23",
+      "image": "portraits-v3/agent-24.png",
+      "alt_text": "Dependency Analyst agent profile"
+    },
+    {
+      "id": "architecture-reviewer",
+      "suggested_name": "Architecture Reviewer",
+      "category": "engineering",
+      "character_id": "crew-8",
+      "image": "portraits-v3/agent-09.png",
+      "alt_text": "Architecture Reviewer agent profile"
+    },
+    {
+      "id": "incident-scribe",
+      "suggested_name": "Incident Scribe",
+      "category": "engineering",
+      "character_id": "crew-9",
+      "image": "portraits-v3/agent-10.png",
+      "alt_text": "Incident Scribe agent profile"
+    },
+    {
+      "id": "design-critic",
+      "suggested_name": "Design Critic",
+      "category": "design",
+      "character_id": "crew-6",
+      "image": "portraits-v3/agent-07.png",
+      "alt_text": "Design Critic agent profile"
+    },
+    {
+      "id": "brand-steward",
+      "suggested_name": "Brand Steward",
+      "category": "design",
+      "character_id": "crew-13",
+      "image": "portraits-v3/agent-14.png",
+      "alt_text": "Brand Steward agent profile"
+    },
+    {
+      "id": "accessibility-reviewer",
+      "suggested_name": "Accessibility Reviewer",
+      "category": "design",
+      "character_id": "crew-14",
+      "image": "portraits-v3/agent-15.png",
+      "alt_text": "Accessibility Reviewer agent profile"
+    },
+    {
+      "id": "ux-researcher",
+      "suggested_name": "UX Researcher",
+      "category": "design",
+      "character_id": "crew-15",
+      "image": "portraits-v3/agent-16.png",
+      "alt_text": "UX Researcher agent profile"
+    },
+    {
+      "id": "asset-curator",
+      "suggested_name": "Asset Curator",
+      "category": "design",
+      "character_id": "crew-16",
+      "image": "portraits-v3/agent-17.png",
+      "alt_text": "Asset Curator agent profile"
+    },
+    {
+      "id": "creative-brief-writer",
+      "suggested_name": "Creative Brief Writer",
+      "category": "design",
+      "character_id": "crew-17",
+      "image": "portraits-v3/agent-18.png",
+      "alt_text": "Creative Brief Writer agent profile"
+    },
+    {
+      "id": "prototype-reviewer",
+      "suggested_name": "Prototype Reviewer",
+      "category": "design",
+      "character_id": "crew-18",
+      "image": "portraits-v3/agent-19.png",
+      "alt_text": "Prototype Reviewer agent profile"
+    },
+    {
+      "id": "design-system-keeper",
+      "suggested_name": "Design-system Keeper",
+      "category": "design",
+      "character_id": "crew-19",
+      "image": "portraits-v3/agent-20.png",
+      "alt_text": "Design-system Keeper agent profile"
+    },
+    {
+      "id": "lead-researcher",
+      "suggested_name": "Lead Researcher",
+      "category": "business",
+      "character_id": "crew-20",
+      "image": "portraits-v3/agent-21.png",
+      "alt_text": "Lead Researcher agent profile"
+    },
+    {
+      "id": "account-brief-writer",
+      "suggested_name": "Account Brief Writer",
+      "category": "business",
+      "character_id": "crew-21",
+      "image": "portraits-v3/agent-22.png",
+      "alt_text": "Account Brief Writer agent profile"
+    },
+    {
+      "id": "proposal-coordinator",
+      "suggested_name": "Proposal Coordinator",
+      "category": "business",
+      "character_id": "crew-22",
+      "image": "portraits-v3/agent-23.png",
+      "alt_text": "Proposal Coordinator agent profile"
+    },
+    {
+      "id": "crm-steward",
+      "suggested_name": "CRM Steward",
+      "category": "business",
+      "character_id": "crew-23",
+      "image": "portraits-v3/agent-24.png",
+      "alt_text": "CRM Steward agent profile"
+    },
+    {
+      "id": "sales-follow-up-partner",
+      "suggested_name": "Sales Follow-up Partner",
+      "category": "business",
+      "character_id": "crew-10",
+      "image": "portraits-v3/agent-11.png",
+      "alt_text": "Sales Follow-up Partner agent profile"
+    },
+    {
+      "id": "customer-success-partner",
+      "suggested_name": "Customer Success Partner",
+      "category": "business",
+      "character_id": "crew-11",
+      "image": "portraits-v3/agent-12.png",
+      "alt_text": "Customer Success Partner agent profile"
+    },
+    {
+      "id": "contract-summarizer",
+      "suggested_name": "Contract Summarizer",
+      "category": "business",
+      "character_id": "crew-12",
+      "image": "portraits-v3/agent-13.png",
+      "alt_text": "Contract Summarizer agent profile"
+    },
+    {
+      "id": "partnership-researcher",
+      "suggested_name": "Partnership Researcher",
+      "category": "business",
+      "character_id": "crew-18",
+      "image": "portraits-v3/agent-19.png",
+      "alt_text": "Partnership Researcher agent profile"
+    },
+    {
+      "id": "launch-coordinator",
+      "suggested_name": "Launch Coordinator",
+      "category": "marketing",
+      "character_id": "crew-23",
+      "image": "portraits-v3/agent-24.png",
+      "alt_text": "Launch Coordinator agent profile"
+    },
+    {
+      "id": "campaign-planner",
+      "suggested_name": "Campaign Planner",
+      "category": "marketing",
+      "character_id": "crew-1",
+      "image": "portraits-v3/agent-02.png",
+      "alt_text": "Campaign Planner agent profile"
+    },
+    {
+      "id": "audience-researcher",
+      "suggested_name": "Audience Researcher",
+      "category": "marketing",
+      "character_id": "crew-2",
+      "image": "portraits-v3/agent-03.png",
+      "alt_text": "Audience Researcher agent profile"
+    },
+    {
+      "id": "seo-analyst",
+      "suggested_name": "SEO Analyst",
+      "category": "marketing",
+      "character_id": "crew-3",
+      "image": "portraits-v3/agent-04.png",
+      "alt_text": "SEO Analyst agent profile"
+    },
+    {
+      "id": "social-draft-writer",
+      "suggested_name": "Social Draft Writer",
+      "category": "marketing",
+      "character_id": "crew-4",
+      "image": "portraits-v3/agent-05.png",
+      "alt_text": "Social Draft Writer agent profile"
+    },
+    {
+      "id": "analytics-interpreter",
+      "suggested_name": "Analytics Interpreter",
+      "category": "marketing",
+      "character_id": "crew-5",
+      "image": "portraits-v3/agent-06.png",
+      "alt_text": "Analytics Interpreter agent profile"
+    },
+    {
+      "id": "community-digest-writer",
+      "suggested_name": "Community Digest Writer",
+      "category": "marketing",
+      "character_id": "crew-6",
+      "image": "portraits-v3/agent-07.png",
+      "alt_text": "Community Digest Writer agent profile"
+    },
+    {
+      "id": "experiment-planner",
+      "suggested_name": "Experiment Planner",
+      "category": "marketing",
+      "character_id": "crew-7",
+      "image": "portraits-v3/agent-08.png",
+      "alt_text": "Experiment Planner agent profile"
+    },
+    {
+      "id": "expense-organizer",
+      "suggested_name": "Expense Organizer",
+      "category": "finance",
+      "character_id": "crew-8",
+      "image": "portraits-v3/agent-09.png",
+      "alt_text": "Expense Organizer agent profile"
+    },
+    {
+      "id": "budget-planner",
+      "suggested_name": "Budget Planner",
+      "category": "finance",
+      "character_id": "crew-9",
+      "image": "portraits-v3/agent-10.png",
+      "alt_text": "Budget Planner agent profile"
+    },
+    {
+      "id": "invoice-tracker",
+      "suggested_name": "Invoice Tracker",
+      "category": "finance",
+      "character_id": "crew-10",
+      "image": "portraits-v3/agent-11.png",
+      "alt_text": "Invoice Tracker agent profile"
+    },
+    {
+      "id": "subscription-reviewer",
+      "suggested_name": "Subscription Reviewer",
+      "category": "finance",
+      "character_id": "crew-11",
+      "image": "portraits-v3/agent-12.png",
+      "alt_text": "Subscription Reviewer agent profile"
+    },
+    {
+      "id": "receipt-librarian",
+      "suggested_name": "Receipt Librarian",
+      "category": "finance",
+      "character_id": "crew-12",
+      "image": "portraits-v3/agent-13.png",
+      "alt_text": "Receipt Librarian agent profile"
+    },
+    {
+      "id": "financial-report-summarizer",
+      "suggested_name": "Financial Report Summarizer",
+      "category": "finance",
+      "character_id": "crew-7",
+      "image": "portraits-v3/agent-08.png",
+      "alt_text": "Financial Report Summarizer agent profile"
+    },
+    {
+      "id": "tax-document-organizer",
+      "suggested_name": "Tax Document Organizer",
+      "category": "finance",
+      "character_id": "crew-13",
+      "image": "portraits-v3/agent-14.png",
+      "alt_text": "Tax Document Organizer agent profile"
+    },
+    {
+      "id": "purchase-researcher",
+      "suggested_name": "Purchase Researcher",
+      "category": "finance",
+      "character_id": "crew-14",
+      "image": "portraits-v3/agent-15.png",
+      "alt_text": "Purchase Researcher agent profile"
+    },
+    {
+      "id": "household-coordinator",
+      "suggested_name": "Household Coordinator",
+      "category": "personal",
+      "character_id": "crew-15",
+      "image": "portraits-v3/agent-16.png",
+      "alt_text": "Household Coordinator agent profile"
+    },
+    {
+      "id": "errand-planner",
+      "suggested_name": "Errand Planner",
+      "category": "personal",
+      "character_id": "crew-16",
+      "image": "portraits-v3/agent-17.png",
+      "alt_text": "Errand Planner agent profile"
+    },
+    {
+      "id": "meal-planner",
+      "suggested_name": "Meal Planner",
+      "category": "personal",
+      "character_id": "crew-17",
+      "image": "portraits-v3/agent-18.png",
+      "alt_text": "Meal Planner agent profile"
+    },
+    {
+      "id": "grocery-organizer",
+      "suggested_name": "Grocery Organizer",
+      "category": "personal",
+      "character_id": "crew-19",
+      "image": "portraits-v3/agent-20.png",
+      "alt_text": "Grocery Organizer agent profile"
+    },
+    {
+      "id": "home-maintenance-planner",
+      "suggested_name": "Home Maintenance Planner",
+      "category": "personal",
+      "character_id": "crew-20",
+      "image": "portraits-v3/agent-21.png",
+      "alt_text": "Home Maintenance Planner agent profile"
+    },
+    {
+      "id": "personal-admin-partner",
+      "suggested_name": "Personal Admin Partner",
+      "category": "personal",
+      "character_id": "crew-21",
+      "image": "portraits-v3/agent-22.png",
+      "alt_text": "Personal Admin Partner agent profile"
+    },
+    {
+      "id": "gift-researcher",
+      "suggested_name": "Gift Researcher",
+      "category": "personal",
+      "character_id": "crew-22",
+      "image": "portraits-v3/agent-23.png",
+      "alt_text": "Gift Researcher agent profile"
+    },
+    {
+      "id": "move-coordinator",
+      "suggested_name": "Move Coordinator",
+      "category": "personal",
+      "character_id": "crew-10",
+      "image": "portraits-v3/agent-11.png",
+      "alt_text": "Move Coordinator agent profile"
+    },
+    {
+      "id": "travel-researcher",
+      "suggested_name": "Travel Researcher",
+      "category": "travel",
+      "character_id": "crew-15",
+      "image": "portraits-v3/agent-16.png",
+      "alt_text": "Travel Researcher agent profile"
+    },
+    {
+      "id": "itinerary-builder",
+      "suggested_name": "Itinerary Builder",
+      "category": "travel",
+      "character_id": "crew-16",
+      "image": "portraits-v3/agent-17.png",
+      "alt_text": "Itinerary Builder agent profile"
+    },
+    {
+      "id": "packing-planner",
+      "suggested_name": "Packing Planner",
+      "category": "travel",
+      "character_id": "crew-17",
+      "image": "portraits-v3/agent-18.png",
+      "alt_text": "Packing Planner agent profile"
+    },
+    {
+      "id": "booking-organizer",
+      "suggested_name": "Booking Organizer",
+      "category": "travel",
+      "character_id": "crew-18",
+      "image": "portraits-v3/agent-19.png",
+      "alt_text": "Booking Organizer agent profile"
+    },
+    {
+      "id": "event-planner",
+      "suggested_name": "Event Planner",
+      "category": "travel",
+      "character_id": "crew-19",
+      "image": "portraits-v3/agent-20.png",
+      "alt_text": "Event Planner agent profile"
+    },
+    {
+      "id": "venue-researcher",
+      "suggested_name": "Venue Researcher",
+      "category": "travel",
+      "character_id": "crew-20",
+      "image": "portraits-v3/agent-21.png",
+      "alt_text": "Venue Researcher agent profile"
+    },
+    {
+      "id": "trip-budget-planner",
+      "suggested_name": "Trip Budget Planner",
+      "category": "travel",
+      "character_id": "crew-21",
+      "image": "portraits-v3/agent-22.png",
+      "alt_text": "Trip Budget Planner agent profile"
+    },
+    {
+      "id": "travel-document-checker",
+      "suggested_name": "Travel Document Checker",
+      "category": "travel",
+      "character_id": "crew-22",
+      "image": "portraits-v3/agent-23.png",
+      "alt_text": "Travel Document Checker agent profile"
+    },
+    {
+      "id": "study-planner",
+      "suggested_name": "Study Planner",
+      "category": "learning",
+      "character_id": "crew-23",
+      "image": "portraits-v3/agent-24.png",
+      "alt_text": "Study Planner agent profile"
+    },
+    {
+      "id": "tutor",
+      "suggested_name": "Tutor",
+      "category": "learning",
+      "character_id": "crew-1",
+      "image": "portraits-v3/agent-02.png",
+      "alt_text": "Tutor agent profile"
+    },
+    {
+      "id": "practice-coach",
+      "suggested_name": "Practice Coach",
+      "category": "learning",
+      "character_id": "crew-2",
+      "image": "portraits-v3/agent-03.png",
+      "alt_text": "Practice Coach agent profile"
+    },
+    {
+      "id": "course-curator",
+      "suggested_name": "Course Curator",
+      "category": "learning",
+      "character_id": "crew-3",
+      "image": "portraits-v3/agent-04.png",
+      "alt_text": "Course Curator agent profile"
+    },
+    {
+      "id": "flashcard-builder",
+      "suggested_name": "Flashcard Builder",
+      "category": "learning",
+      "character_id": "crew-4",
+      "image": "portraits-v3/agent-05.png",
+      "alt_text": "Flashcard Builder agent profile"
+    },
+    {
+      "id": "progress-reflector",
+      "suggested_name": "Progress Reflector",
+      "category": "learning",
+      "character_id": "crew-5",
+      "image": "portraits-v3/agent-06.png",
+      "alt_text": "Progress Reflector agent profile"
+    },
+    {
+      "id": "career-researcher",
+      "suggested_name": "Career Researcher",
+      "category": "learning",
+      "character_id": "crew-6",
+      "image": "portraits-v3/agent-07.png",
+      "alt_text": "Career Researcher agent profile"
+    },
+    {
+      "id": "portfolio-reviewer",
+      "suggested_name": "Portfolio Reviewer",
+      "category": "learning",
+      "character_id": "crew-7",
+      "image": "portraits-v3/agent-08.png",
+      "alt_text": "Portfolio Reviewer agent profile"
+    },
+    {
+      "id": "habit-planner",
+      "suggested_name": "Habit Planner",
+      "category": "wellbeing",
+      "character_id": "crew-8",
+      "image": "portraits-v3/agent-09.png",
+      "alt_text": "Habit Planner agent profile"
+    },
+    {
+      "id": "reflection-partner",
+      "suggested_name": "Reflection Partner",
+      "category": "wellbeing",
+      "character_id": "crew-9",
+      "image": "portraits-v3/agent-10.png",
+      "alt_text": "Reflection Partner agent profile"
+    },
+    {
+      "id": "workout-organizer",
+      "suggested_name": "Workout Organizer",
+      "category": "wellbeing",
+      "character_id": "crew-11",
+      "image": "portraits-v3/agent-12.png",
+      "alt_text": "Workout Organizer agent profile"
+    },
+    {
+      "id": "rest-planner",
+      "suggested_name": "Rest Planner",
+      "category": "wellbeing",
+      "character_id": "crew-12",
+      "image": "portraits-v3/agent-13.png",
+      "alt_text": "Rest Planner agent profile"
+    },
+    {
+      "id": "appointment-organizer",
+      "suggested_name": "Appointment Organizer",
+      "category": "wellbeing",
+      "character_id": "crew-13",
+      "image": "portraits-v3/agent-14.png",
+      "alt_text": "Appointment Organizer agent profile"
+    },
+    {
+      "id": "relationship-reminder-partner",
+      "suggested_name": "Relationship Reminder Partner",
+      "category": "wellbeing",
+      "character_id": "crew-14",
+      "image": "portraits-v3/agent-15.png",
+      "alt_text": "Relationship Reminder Partner agent profile"
+    },
+    {
+      "id": "volunteer-researcher",
+      "suggested_name": "Volunteer Researcher",
+      "category": "wellbeing",
+      "character_id": "crew-2",
+      "image": "portraits-v3/agent-03.png",
+      "alt_text": "Volunteer Researcher agent profile"
+    },
+    {
+      "id": "personal-goal-coach",
+      "suggested_name": "Personal Goal Coach",
+      "category": "wellbeing",
+      "character_id": "crew-3",
+      "image": "portraits-v3/agent-04.png",
+      "alt_text": "Personal Goal Coach agent profile"
+    }
+  ]
+}
