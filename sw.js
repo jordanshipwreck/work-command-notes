@@ -17,7 +17,7 @@
 //      shell cache must never contain.
 // `scripts/deploy-notes-site.sh` rewrites this exact string to 'wc-notes-shell-<build hash>' on every
 // deploy (its "sw.js cache stamp" region), so an installed site drops the old shell. Keep it as is.
-const CACHE_VERSION = 'wc-notes-shell-1af7daa557ae';
+const CACHE_VERSION = 'wc-notes-shell-bf0b8d59b8fd';
 const SHELL_ASSETS = ['./', './index.html', './manifest.webmanifest', './icons/workcommand-dark-192.png', './icons/workcommand-dark-512.png', './icons/workcommand-maskable-512.png', './icons/workcommand-dark-180.png', './icons/workcommand-light-180.png', './icons/workcommand-dark-32.png', './icons/workcommand-light-32.png'];
 
 self.addEventListener('install', (event) => {
@@ -28,8 +28,15 @@ self.addEventListener('install', (event) => {
       // and GitHub Pages lets a page sit in the HTTP cache for minutes: precaching THAT would store the
       // previous index.html, whose hashed JS the deploy has already deleted, and break the site.
       .then((cache) => cache.addAll(SHELL_ASSETS.map((url) => new Request(url, { cache: 'reload' }))))
-      .then(() => self.skipWaiting()),
+      // The site's FIRST install takes over at once — there is no page state to protect yet. A NEW
+      // version waits: only the page knows whether anything on it is unsaved, so it is the page
+      // (src/lib/appUpdate.ts, task 42) that tells this worker to take over, with SKIP_WAITING below.
+      .then(() => (self.registration && self.registration.active ? undefined : self.skipWaiting())),
   );
+});
+
+self.addEventListener('message', (event) => {
+  if (event.data && event.data.type === 'SKIP_WAITING') self.skipWaiting();
 });
 
 self.addEventListener('activate', (event) => {
