@@ -17,8 +17,8 @@
 //      shell cache must never contain.
 // `scripts/deploy-notes-site.sh` rewrites this exact string to 'wc-notes-shell-<build hash>' on every
 // deploy (its "sw.js cache stamp" region), so an installed site drops the old shell. Keep it as is.
-const CACHE_VERSION = 'wc-notes-shell-730f28bb8a3d';
-const SHELL_ASSETS = ['./', './index.html', './manifest.webmanifest', './icons/workcommand-dark-192.png', './icons/workcommand-dark-512.png', './icons/workcommand-maskable-512.png', './icons/workcommand-dark-180.png', './icons/workcommand-light-180.png', './icons/workcommand-dark-32.png', './icons/workcommand-light-32.png'];
+const CACHE_VERSION = 'wc-notes-shell-3a93974586b9';
+const SHELL_ASSETS = ['./', './index.html', './manifest.webmanifest', './icons/workcommand-dark-192.png', './icons/workcommand-dark-512.png', './icons/workcommand-maskable-512.png', './icons/workcommand-dark-180.png', './icons/workcommand-light-180.png', './icons/workcommand-dark-32.png', './icons/workcommand-light-32.png', './assets/index-BYnvUKJ5.js', './assets/BrainPage-DM5wm4aD.js', './assets/Button-HGqEy5Xs.js', './assets/Card-uB3LTUio.js', './assets/DayPage-pTKUG3hD.js', './assets/FolderPickPage-1V0I4bA7.js', './assets/HomePage-BvHBwYXJ.js', './assets/PickerPickPage-DLoGxU9f.js', './assets/SettingsPage-6QNvmT6s.js', './assets/Textarea-DNHbceta.js', './assets/dist-Y3dxntgD.js', './assets/offlineBrain-B9_htK87.js', './assets/pageTree-Dj7RdE8g.js', './assets/todo-trash-DS_7tPTf.js', './assets/BrainPage-D2qNnsfj.css', './assets/Button-DBtpkpvq.css', './assets/Card-CXkPMrjZ.css', './assets/DayPage-B9MyCZgS.css', './assets/FolderPickPage-tXu8aNxe.css', './assets/HomePage-BEQG17U-.css', './assets/PickerPickPage-D9psoUf3.css', './assets/SettingsPage-BWDqBdFf.css', './assets/Textarea-c4ojJqM3.css', './assets/index-2sBhiBSX.css', './assets/pageTree-Bkwn31tO.css'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
