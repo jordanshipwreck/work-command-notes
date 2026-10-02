@@ -17,8 +17,8 @@
 //      shell cache must never contain.
 // `scripts/deploy-notes-site.sh` rewrites this exact string to 'wc-notes-shell-<build hash>' on every
 // deploy (its "sw.js cache stamp" region), so an installed site drops the old shell. Keep it as is.
-const CACHE_VERSION = 'wc-notes-shell-3a93974586b9';
-const SHELL_ASSETS = ['./', './index.html', './manifest.webmanifest', './icons/workcommand-dark-192.png', './icons/workcommand-dark-512.png', './icons/workcommand-maskable-512.png', './icons/workcommand-dark-180.png', './icons/workcommand-light-180.png', './icons/workcommand-dark-32.png', './icons/workcommand-light-32.png', './assets/index-BYnvUKJ5.js', './assets/BrainPage-DM5wm4aD.js', './assets/Button-HGqEy5Xs.js', './assets/Card-uB3LTUio.js', './assets/DayPage-pTKUG3hD.js', './assets/FolderPickPage-1V0I4bA7.js', './assets/HomePage-BvHBwYXJ.js', './assets/PickerPickPage-DLoGxU9f.js', './assets/SettingsPage-6QNvmT6s.js', './assets/Textarea-DNHbceta.js', './assets/dist-Y3dxntgD.js', './assets/offlineBrain-B9_htK87.js', './assets/pageTree-Dj7RdE8g.js', './assets/todo-trash-DS_7tPTf.js', './assets/BrainPage-D2qNnsfj.css', './assets/Button-DBtpkpvq.css', './assets/Card-CXkPMrjZ.css', './assets/DayPage-B9MyCZgS.css', './assets/FolderPickPage-tXu8aNxe.css', './assets/HomePage-BEQG17U-.css', './assets/PickerPickPage-D9psoUf3.css', './assets/SettingsPage-BWDqBdFf.css', './assets/Textarea-c4ojJqM3.css', './assets/index-2sBhiBSX.css', './assets/pageTree-Bkwn31tO.css'];
+const CACHE_VERSION = 'wc-notes-shell-3e9c58336391';
+const SHELL_ASSETS = ['./', './index.html', './manifest.webmanifest', './privacy.html', './terms.html', './icons/workcommand-dark-192.png', './icons/workcommand-dark-512.png', './icons/workcommand-maskable-512.png', './icons/workcommand-dark-180.png', './icons/workcommand-light-180.png', './icons/workcommand-dark-32.png', './icons/workcommand-light-32.png', './assets/index-CuBqXuhp.js', './assets/BrainPage-CRzHq7dz.js', './assets/Button-HGqEy5Xs.js', './assets/Card-BhkYts7x.js', './assets/DayPage-Cp5XlSvF.js', './assets/FolderPickPage-se0WHMrX.js', './assets/HomePage-BEhWTCTH.js', './assets/PickerPickPage-BUMc3HcV.js', './assets/SettingsPage-DD2QkHSn.js', './assets/Textarea-DNHbceta.js', './assets/dist-0R9RcIKa.js', './assets/offlineBrain-C-zwxEiF.js', './assets/pageTree-DJ8buym5.js', './assets/todo-trash-kFfINqou.js', './assets/BrainPage-DOKUYb0-.css', './assets/Button-DBtpkpvq.css', './assets/Card-CXkPMrjZ.css', './assets/DayPage-BmoT9lLd.css', './assets/FolderPickPage-CHrfYiwN.css', './assets/HomePage-BEQG17U-.css', './assets/PickerPickPage-D9psoUf3.css', './assets/SettingsPage-snhtDBas.css', './assets/Textarea-c4ojJqM3.css', './assets/index-BP2E_2Ej.css', './assets/pageTree-Bkwn31tO.css'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
@@ -56,7 +56,11 @@ self.addEventListener('fetch', (event) => {
   if (req.url.includes('access_token')) return; // a sign-in's answer: straight to the network, never cached
 
   event.respondWith(
-    caches.match(req).then((cached) => {
+    // `ignoreVary`: a host that sends `Vary: Origin` (vite preview does; a CDN may) makes the Cache API refuse a
+    // module script's request, which carries an `Origin` header the precache was stored without — and the page
+    // then blanks offline. Every entry here is one of this site's own files at one URL, so the header cannot pick
+    // between two versions of it. (Task 71, QA #2.)
+    caches.match(req, { ignoreVary: true }).then((cached) => {
       if (cached) return cached;
       return fetch(req).then((res) => {
         // /config.json changes when Jordan pastes a client id WITHOUT a rebuild — never cache it,

@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Work Command — Privacy Policy</title>
 <style>
-  :root { color-scheme: light dark; --bg:#f7f5f2; --fg:#1d1b19; --muted:#6b645c; --rule:#ddd6cc; --accent:#b8672f; }
+  :root { color-scheme: light dark; --bg:#f7f5f2; --fg:#1d1b19; --muted:#6b645c; --rule:#ddd6cc; --accent:#a0521c; }
   @media (prefers-color-scheme: dark) { :root { --bg:#141312; --fg:#ece7e1; --muted:#a39a90; --rule:#2e2b28; --accent:#e0915a; } }
   body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
   main { max-width:720px; margin:0 auto; padding:48px 20px 80px; }
@@ -22,7 +22,7 @@
 <body>
 <main>
   <h1>Privacy Policy</h1>
-  <p class="meta">Work Command · Work Command Notes · Effective 15 September 2026</p>
+  <p class="meta">Work Command · Work Command Notes · Effective 1 October 2026</p>
 
   <p>Work Command is a personal notes and to-do app. It comes as a Mac app, and as the website
   Work Command Notes at <a href="https://jordanshipwreck.github.io/work-command-notes/">jordanshipwreck.github.io/work-command-notes</a>.
@@ -46,14 +46,47 @@
 
   <h2>Where your information is kept</h2>
   <ul>
-    <li><strong>Your notes stay in your Google Drive.</strong> Work Command has no database, no server and no copy of your
-    notes anywhere else.</li>
+    <li><strong>Your notes stay in your Google Drive.</strong> Work Command has no server of its own, and the website keeps no
+    database on a server. The only other copies of your notes are the ones on your own devices, described below.</li>
     <li><strong>On the website</strong>, your browser keeps the sign-in for the current tab only (it ends when the tab
-    closes), plus a few small preferences on your device: your theme, the account that is signed in, and which
-    Drive files you picked. Nothing is sent to us.</li>
+    closes), plus a few small preferences on your device: your theme, whether you hid the Brain's folder list, the account
+    that is signed in, which Drive files you picked, the link suggestions you dismissed (the page and the name each one was
+    about) and, if the Mac has set a Weather place, that place and the last forecast the website received for it. Nothing
+    is sent to us.</li>
+    <li><strong>On the website, a copy of your notes is kept on your device</strong> so the site keeps working with no
+    connection. Your browser's own storage (IndexedDB) holds the Days and pages you have opened or that the site read
+    ahead for you, and anything you wrote while offline until it reaches your Drive. It stays on that device, in that
+    browser, and is not sent to us. Signing out or changing the Brain folder removes it. The site's service worker
+    keeps only the site's own files (its pages, scripts, styles, fonts and icons), never your notes.</li>
     <li><strong>In the Mac app</strong>, the Google sign-in is kept in your Mac's Keychain. The Mac keeps a working copy of
-    your notes folder on your own disk, so the app is fast and works offline, and it syncs changes with your Drive.</li>
+    your notes folder on your own disk, so the app is fast and works offline, and it syncs changes with your Drive. The Mac
+    app also keeps its own local database on your Mac, for its settings, an index of your Days and to-dos, and a record of
+    what it has done for you. It stays on your Mac and is not sent to us.</li>
   </ul>
+
+  <h2>Your calendar on the website (optional)</h2>
+  <p>In the Mac app, Settings has a switch called <strong>Show my calendar on the website</strong>. It is off unless you
+  turn it on. When it is on, the Mac writes a small file, <code>Agenda.md</code>, into the Work Command folder inside your
+  notes folder. That file holds the <strong>titles</strong>, start and end times and calendar names of your
+  meetings for today and the next 7 days, for the calendars you chose to show, and nothing else about them. The website
+  reads that file to show your agenda. Like your other notes, it lives in your notes folder and may be part of the copy
+  kept on your device. Turning the switch off removes the file from your notes folder when the Mac can reach that folder.
+  If it cannot, the app tells you so, the file is left where it is, and the Mac tries again the next time it starts.
+  Once the file is gone from your notes folder, its removal reaches your Drive and your other devices through the normal
+  sync.</p>
+
+  <h2>Weather (optional)</h2>
+  <p>If you add the Weather widget and choose a place in the Mac app, the app asks Open-Meteo, a free weather service, for that
+  place's forecast. The request carries the place's <strong>latitude and longitude</strong>, its time zone and your
+  temperature unit. On the Mac the request is sent from your Mac; on the website it is sent from your browser. In the Mac
+  app, while you search for a place, the words you type are sent to Open-Meteo too. Open-Meteo also sees what any
+  website sees of a request, such as your IP address. Nothing about you, your account or your notes is sent. If you never
+  choose a place, nothing is sent.</p>
+  <p>The website has no place picker of its own. The Mac keeps a copy of your Day layout (which widgets your Day shows and
+  where) in a file called <code>Day layout.md</code> in the Work Command folder inside your notes folder, so the website can
+  draw the same Day. If you have chosen a Weather place, that file also holds the place's <strong>name, latitude, longitude
+  and time zone</strong> and your temperature unit, and the website reads them from it. Like your other notes, that file
+  lives in your Drive and may be part of the copy kept on your device.</p>
 
   <h2>What we never do</h2>
   <ul>
@@ -74,8 +107,13 @@
   <p>The Mac app has optional assistant features, such as drafting a message or summarising a meeting. They work only
   if you add your own key for an AI provider (for example OpenAI) in the app's settings. When you use one of those
   features, the text that feature needs is sent from your Mac to the provider you chose, under your own account with
-  them and their terms. That text does not go to us, and you can remove the key at any time. The website has no
-  assistant features.</p>
+  them and their terms. That text does not go to us, and you can remove the key at any time. If you choose an AI that
+  runs on your own Mac instead (such as Ollama), that text stays on your Mac. The website has no assistant
+  features.</p>
+  <p>The Mac app can also let the Claude desktop app (or Codex) read your notes, if you turn that on in Settings ›
+  Integrations. It is off unless you turn it on, it only reads (it cannot change anything), and it works only while
+  Work Command is open on your Mac. What Claude reads becomes part of your conversation with Claude, under your own
+  Claude account and Anthropic's terms.</p>
 
   <h2>Services the app connects to</h2>
   <ul>
@@ -83,13 +121,17 @@
     <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</li>
     <li><strong>GitHub Pages</strong> hosts the website's files. GitHub may keep standard web server logs, such as your IP
     address, under <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub's Privacy Statement</a>.</li>
+    <li><strong>Open-Meteo</strong>, only if you choose a place for the Weather widget (see above), under
+    <a href="https://open-meteo.com/en/terms">Open-Meteo's terms</a>.</li>
     <li><strong>An AI provider you choose</strong>, only in the Mac app and only if you add your own key (see above).</li>
+    <li><strong>Claude (Anthropic)</strong>, only if you turn on the Claude connection in the Mac app (see above).</li>
   </ul>
 
   <h2>Your choices</h2>
   <ul>
-    <li><strong>Sign out</strong> at any time in Settings. On the website, that also clears the preferences above from
-    your device.</li>
+    <li><strong>Sign out</strong> at any time in Settings. On the website, that also clears these from your device: the
+    account that is signed in, the Drive files you picked, your dismissed link suggestions, the Weather place and forecast,
+    and the copy of your notes. Your theme and whether you hid the folder list stay, since they hold nothing about you.</li>
     <li><strong>Remove Work Command's access</strong> to your Google account at
     <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
     <li><strong>Your notes remain yours.</strong> They are ordinary files in your Drive, and deleting the app never deletes them.</li>
